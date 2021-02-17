@@ -10,7 +10,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-
   // ------------- VARIABLES --------------
   String answer = '';
   CameraController cameraController;
@@ -18,7 +17,7 @@ class _HomeState extends State<Home> {
   bool camera_on = false;
 
   // ------------- FUNCTIONS --------------
-  
+
   loadmodel() async {
     Tflite.loadModel(
         model: 'assets/mobilenet_v1_1.0_224.tflite',
