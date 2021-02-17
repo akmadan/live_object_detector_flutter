@@ -1,3 +1,3 @@
-![](assets/output1.jpg)
-![](assets/output2.jpg)
-![](assets/code.png)
+![](assets/output1.jpg | width = 100)
+![](assets/output2.jpg | width = 100)
+![](assets/code.png | width = 100)
